@@ -12,7 +12,7 @@ env:
 
 jobs:
   buildFrontend:
-    environment: DevWork
+    environment: Devwork
     runs-on: windows-latest
 
     steps:
@@ -53,7 +53,7 @@ jobs:
   
   frontend:
     if: ${{ false }}
-    environment: DevWork
+    environment: Devwork
     runs-on: ubuntu-latest
 
     steps:
