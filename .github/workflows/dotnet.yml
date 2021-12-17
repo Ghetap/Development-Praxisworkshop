@@ -2,6 +2,7 @@ name: .NET Core CI
 
 on: [push]
 
+
 env:
   AZURE_WEBAPP_NAME: Devwork
   AZURE_WEBAPP_PACKAGE_PATH: '.'
