@@ -3,7 +3,7 @@ name: .NET Core CI
 on: [push]
 
 env:
-  AZURE_WEBAPP_NAME: devwork
+  AZURE_WEBAPP_NAME: Devwork
   AZURE_WEBAPP_PACKAGE_PATH: '.'
   DOTNET_VERSION: '5.0.x'
   AZURE_FUNCTION_NAME: devworkfunction
@@ -12,7 +12,7 @@ env:
 
 jobs:
   buildFrontend:
-    environment: DevWorkshop
+    environment: DevWork
     runs-on: windows-latest
 
     steps:
@@ -53,7 +53,7 @@ jobs:
   
   frontend:
     if: ${{ false }}
-    environment: DevWorkshop
+    environment: DevWork
     runs-on: ubuntu-latest
 
     steps:
@@ -84,7 +84,7 @@ jobs:
   
   
   function:
-    environment: DevWorkshop
+    environment: devworkfunction
     runs-on: ubuntu-latest
 
     steps:
