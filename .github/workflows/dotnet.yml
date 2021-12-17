@@ -85,7 +85,7 @@ jobs:
   
   
   function:
-    environment: devworkfunction
+    environment: Devwork
     runs-on: ubuntu-latest
 
     steps:
